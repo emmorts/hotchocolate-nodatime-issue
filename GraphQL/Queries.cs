@@ -7,7 +7,7 @@ namespace GraphQL
 {
     public class Queries
     {
-        [UseFiltering]
+        [UseFiltering] // Comment this out to see everything working as intended
         public IList<Model> GetModels()
         {
             return new List<Model>
