@@ -4,6 +4,7 @@ namespace Data
 {
     public class InnerModel
     {
-        public Instant? CreatedOn;
+        public Instant? CreatedOn { get; set; }
+        public Instant AnotherDate { get; set; }
     }
 }
